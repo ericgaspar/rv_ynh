@@ -23,8 +23,6 @@ Streamhut allows you to stream (pipe) realtime data from your terminal stdout/st
 
 ## Configuration
 
-You can configure HedgeDoc by editing this file `/var/www/hedgedoc/config.json` using this the [documentation](https://github.com/hedgedoc/server/blob/master/docs/configuration.md)
-
 ## Documentation
 
  * Official documentation: 
@@ -34,8 +32,8 @@ You can configure HedgeDoc by editing this file `/var/www/hedgedoc/config.json` 
 
 #### Multi-user support
 
-* Is LDAP supported? **Yes**
-* Can the app be used by multiple users? **Yes**
+* Is LDAP supported?
+* Can the app be used by multiple users?
 
 #### Supported architectures
 
@@ -45,7 +43,7 @@ You can configure HedgeDoc by editing this file `/var/www/hedgedoc/config.json` 
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/hedgedoc_ynh/issues
- https://streamhut.io/
+ * App website:https://streamhut.io/
  * Upstream app repository: https://github.com/streamhut/web
  * YunoHost website: https://yunohost.org/
 
