@@ -35,7 +35,7 @@
     "xterm": "3.12.2"
   },
   "scripts": {
-    "start": "HOST=0.0.0.0 PORT=3050 NODE_PATH=./ SKIP_PREFLIGHT_CHECK=true BROWSER=none react-scripts --max-old-space-size=4096 start",
+    "start": "HOST=127.0.0.1 PORT=3050 NODE_PATH=./ SKIP_PREFLIGHT_CHECK=true BROWSER=none react-scripts --max-old-space-size=4096 start",
     "dev": "npm run start",
     "build": "NODE_ENV=production NODE_PATH=./ SKIP_PREFLIGHT_CHECK=true GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",

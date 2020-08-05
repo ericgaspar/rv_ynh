@@ -106,11 +106,9 @@ ynh_system_user_create --username=$app --home_dir=$final_path
 ynh_script_progression --message="Building $app... (this will take some time and resources!)" --weight=240
 
 pushd "$final_path" || ynh_die
-
 	ynh_use_nodejs
 	yarn install
-	ynh_exec_warn_less yarn build
-
+	yarn build
 popd || ynh_die
 
 #=================================================

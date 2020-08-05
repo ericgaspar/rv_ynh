@@ -27,8 +27,8 @@ You can configure HedgeDoc by editing this file `/var/www/hedgedoc/config.json` 
 
 ## Documentation
 
- * Official documentation: https://github.com/hedgedoc/server/tree/master/docs/
- * YunoHost documentation: https://yunohost.org/#/app_hedgedoc
+ * Official documentation: 
+ * YunoHost documentation: 
 
 ## YunoHost specific features
 
@@ -39,25 +39,25 @@ You can configure HedgeDoc by editing this file `/var/www/hedgedoc/config.json` 
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/hedgedoc%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/hedgedoc/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/hedgedoc%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/hedgedoc/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/streamhut%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/streamhut/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/streamhut%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/streamhut/)
 
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/hedgedoc_ynh/issues
  https://streamhut.io/
- * Upstream app repository: https://github.com/hedgedoc/server/
+ * Upstream app repository: https://github.com/streamhut/web
  * YunoHost website: https://yunohost.org/
 
 ---
 
 ## Developer info
 
-Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/hedgedoc_ynh/tree/testing).
+Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/streamhut_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/hedgedoc_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/streamhut_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade hedgedoc -u https://github.com/YunoHost-Apps/hedgedoc_ynh/tree/testing --debug
+sudo yunohost app upgrade streamhut -u https://github.com/YunoHost-Apps/streamhut_ynh/tree/testing --debug
 ```
