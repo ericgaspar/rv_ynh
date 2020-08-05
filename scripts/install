@@ -80,6 +80,8 @@ ynh_app_setting_set --app=$app --key=final_path --value=$final_path
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir=$final_path
 
+cp ../sources/package.json $final_path/package.json
+
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
@@ -144,7 +146,7 @@ yunohost service add $app --description "Collaborative Markdown notes" --log="/v
 ynh_script_progression --message="Starting a systemd service..." --weight=2
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" #--line_match="HTTP Server listening"
+ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" --line_match="The following changes are being made"
 
 #=================================================
 # SETUP SSOWAT
