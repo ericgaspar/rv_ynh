@@ -1,7 +1,7 @@
 # Streamhut pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/hedgedoc.svg)](https://dash.yunohost.org/appci/app/hedgedoc) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.maintain.svg)  
-[![Installer Streamhut avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=hedgedoc)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/streamhut.svg)](https://dash.yunohost.org/appci/app/streamhut) ![](https://ci-apps.yunohost.org/ci/badges/streamhut.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/streamhut.maintain.svg)  
+[![Installer Streamhut avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=streamhut)
 
 *[Read this readme in english.](./README.md)* 
 
@@ -23,7 +23,6 @@ Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install
 
 ## Configuration
 
-Vous pouvez configurer HedgeDoc en modifiant le fichier `/var/www/hedgedoc/config.json` et en vous aidant de la [documentation](https://github.com/hedgedoc/server/blob/master/docs/configuration.md)
 
 ## Documentation
 
@@ -34,8 +33,8 @@ Vous pouvez configurer HedgeDoc en modifiant le fichier `/var/www/hedgedoc/confi
 
 #### Support multi-utilisateur
 
-* L'authentification LDAP est-elle prise en charge ? **Oui**
-* L'application peut-elle être utilisée par plusieurs utilisateurs ? **Oui**
+* L'authentification LDAP est-elle prise en charge ? 
+* L'application peut-elle être utilisée par plusieurs utilisateurs ?
 
 #### Architectures supportées
 
@@ -44,7 +43,7 @@ Vous pouvez configurer HedgeDoc en modifiant le fichier `/var/www/hedgedoc/confi
 
 ## Liens
 
- * Signaler un bug : https://github.com/YunoHost-Apps/hedgedoc_ynh/issues
+ * Signaler un bug : https://github.com/YunoHost-Apps/streamhut_ynh/issues
  https://streamhut.io/
  * Dépôt de l'application principale : 
  * Site web YunoHost : https://yunohost.org/
