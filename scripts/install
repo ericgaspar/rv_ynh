@@ -60,6 +60,8 @@ ynh_script_progression --message="Configuring firewall..." --weight=2
 port=$(ynh_find_port --port=3050)
 ynh_app_setting_set --app=$app --key=port --value=$port
 
+ynh_exec_warn_less yunohost firewall allow --no-upnp TCP 1337
+
 #=================================================
 # INSTALL DEPENDENCIES
 #=================================================
@@ -108,6 +110,7 @@ ynh_script_progression --message="Building $app... (this will take some time and
 pushd "$final_path" || ynh_die
 	ynh_use_nodejs
 	yarn install
+	yarn add src/components/home
 	yarn build
 popd || ynh_die
 
