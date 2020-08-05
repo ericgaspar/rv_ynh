@@ -109,7 +109,7 @@ pushd "$final_path" || ynh_die
 
 	ynh_use_nodejs
 	yarn install
-	ynh_exec_warn_less yarn run build
+	ynh_exec_warn_less yarn build
 
 popd || ynh_die
 
