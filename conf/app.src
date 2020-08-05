@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/revery-ui/revery/archive/master.tar.gz
-SOURCE_SUM=4a4d050abe7fc24db9d720f1615051d46b4f57d770a0bfae5fc5f35239e7a788
+SOURCE_URL=https://github.com/streamhut/web/archive/v0.0.8.tar.gz
+SOURCE_SUM=40279136e5e67b219621e0b1f4b104a3bee5003d7adc3adb0f1a9170808da898
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
