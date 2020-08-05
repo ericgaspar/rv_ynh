@@ -43,7 +43,7 @@ Streamhut allows you to stream (pipe) realtime data from your terminal stdout/st
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/hedgedoc_ynh/issues
- * App website:https://streamhut.io/
+ * App website: https://streamhut.io/
  * Upstream app repository: https://github.com/streamhut/web
  * YunoHost website: https://yunohost.org/
 

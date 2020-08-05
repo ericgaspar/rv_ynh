@@ -44,7 +44,7 @@ Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install
 ## Liens
 
  * Signaler un bug : https://github.com/YunoHost-Apps/streamhut_ynh/issues
- * Site de l'application :https://streamhut.io/
+ * Site de l'application : https://streamhut.io/
  * Dépôt de l'application principale : https://github.com/streamhut/web
  * Site web YunoHost : https://yunohost.org/
 
