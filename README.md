@@ -1,25 +1,25 @@
-# HedgeDoc for YunoHost
+# Streamhut for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/hedgedoc.svg)](https://dash.yunohost.org/appci/app/hedgedoc) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.maintain.svg)  
-[![Install HedgeDoc with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=hedgedoc)
+[![Install Streamhut with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=hedgedoc)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
-> *This package allows you to install HedgeDoc quickly and simply on a YunoHost server.  
+> *This package allows you to install Streamhutquickly and simply on a YunoHost server.  
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
 ## Overview
-HedgeDoc is a real-time collaborative word processing web service. It uses Markdown language.
+Streamhut allows you to stream (pipe) realtime data from your terminal stdout/stderr to a web xterm UI or even to another terminal. It also allow you to quickly share data and files between devices.
 
-**Shipped version:** 1.6.0
+**Shipped version:** 0.0.8
 
 ## Screenshots
 
-![](https://demo.hedgedoc.org/screenshot.png)
+![](https://camo.githubusercontent.com/8fc50c755f3cedf509ba303470bd148b3f0c7bf5/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6173736574732e73747265616d6875742e696f2f73747265616d6875745f64656d6f5f312e676966)
 
 ## Demo
 
-* [Official demo](https://demo.hedgedoc.org/)
+* [Official demo](https://streamhut.io)
 
 ## Configuration
 
@@ -45,6 +45,7 @@ You can configure HedgeDoc by editing this file `/var/www/hedgedoc/config.json` 
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/hedgedoc_ynh/issues
+ https://streamhut.io/
  * Upstream app repository: https://github.com/hedgedoc/server/
  * YunoHost website: https://yunohost.org/
 
