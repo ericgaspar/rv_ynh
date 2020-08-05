@@ -1,0 +1,8 @@
+SOURCE_URL=https://github.com/revery-ui/revery/archive/master.tar.gz
+SOURCE_SUM=4a4d050abe7fc24db9d720f1615051d46b4f57d770a0bfae5fc5f35239e7a788
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
+
+
