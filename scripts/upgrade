@@ -107,7 +107,7 @@ then
 
 	ynh_use_nodejs
 	yarn install
-	ynh_exec_warn_less yarn run build
+	yarn build
 
 	popd || ynh_die
 fi
