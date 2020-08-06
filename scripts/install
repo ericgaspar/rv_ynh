@@ -110,7 +110,7 @@ ynh_script_progression --message="Building $app... (this will take some time and
 pushd "$final_path" || ynh_die
 	ynh_use_nodejs
 	yarn install
-	yarn build
+	yarn run build
 popd || ynh_die
 
 #=================================================
@@ -146,7 +146,7 @@ yunohost service add $app --description "Collaborative Markdown notes" --log="/v
 ynh_script_progression --message="Starting a systemd service..." --weight=2
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" --line_match="The following changes are being made"
+ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" #--line_match="The following changes are being made"
 
 #=================================================
 # SETUP SSOWAT
