@@ -35,9 +35,9 @@
     "xterm": "3.12.2"
   },
   "scripts": {
-    "start": "HOST=127.0.0.1 PORT=3050 NODE_PATH=./src SKIP_PREFLIGHT_CHECK=true BROWSER=none react-scripts --max-old-space-size=4096 start",
+    "start": "SKIP_PREFLIGHT_CHECK=true BROWSER=none react-scripts --max-old-space-size=4096 start",
     "dev": "npm run start",
-    "build": "NODE_ENV=production NODE_PATH=./src SKIP_PREFLIGHT_CHECK=true GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "NODE_ENV=production NODE_PATH=./ SKIP_PREFLIGHT_CHECK=true GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "tslint --fix -c tslint.json src/*.{ts,tsx} src/**/*.{ts,tsx} src/**/**/*.{ts,tsx}"
