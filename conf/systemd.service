@@ -10,7 +10,7 @@ Group=__APP__
 WorkingDirectory=__FINALPATH__
 Environment="PATH=__ENV_PATH__"
 Environment="NODE_ENV=production"
-ExecStart=__YNH_NPM__ HOST=127.0.0.1 PORT=3050 SKIP_PREFLIGHT_CHECK=true BROWSER=none react-scripts --max-old-space-size=4096 start
+ExecStart=__YNH_NPM__ start
 Restart=always
 PrivateTmp=true
 PrivateDevices=true
