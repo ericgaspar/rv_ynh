@@ -59,6 +59,7 @@
     "eslint-plugin-node": "4.2.2",
     "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-standard": "3.0.0",
+    "eslint-plugin-react": "7.11.1",
     "standard": "12.0.1",
     "standardx": "5.0.0",
     "tslint": "5.20.0",
