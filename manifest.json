@@ -3,12 +3,12 @@
     "id": "streamhut",
     "packaging_format": 1,
     "description": {
-        "en": "Collaborative editor to work on notes written in Markdown",
-        "fr": "Éditeur collaboratif pour travailler sur des notes en Markdown"
+        "en": "Stream your terminal to web without installing anything ",
+        "fr": "Partagez votre terminal sur le Web sans rien installer"
     },
     "version": "0.0.8~ynh1",
-    "url": "https://github.com/hedgedoc/server",
-    "license": "AGPL-3.0-only",
+    "url": "https://github.com/streamhut/web",
+    "license": "MIT",
     "maintainer": {
         "name": ""
     },
@@ -48,8 +48,8 @@
                     "fr": "Est-ce un site public ?"
                 },
                 "help": {
-                    "en": "If enabled, streamhut-web will be accessible by people who do not have an account. This can be changed later via the webadmin.",
-                    "fr": "Si cette case est cochée, streamhut-web sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+                    "en": "If enabled, streamhut will be accessible by people who do not have an account. This can be changed later via the webadmin.",
+                    "fr": "Si cette case est cochée, streamhut sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
                 },
                 "default": true
             }

@@ -1,6 +1,6 @@
 [Unit]
-Description=streamhut
-Documentation=
+Description=Streamhut
+Documentation=https://github.com/streamhut/web
 After=network.target
 
 [Service]
