@@ -105,9 +105,9 @@ then
 
 	pushd "$final_path" || ynh_die
 
-	ynh_use_nodejs
-	yarn install
-	yarn build
+		ynh_use_nodejs
+		yarn install
+		yarn build
 
 	popd || ynh_die
 fi
