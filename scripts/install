@@ -105,12 +105,14 @@ ynh_system_user_create --username=$app --home_dir=$final_path
 #==============================================
 # INSTALL HEDGEDOC
 #==============================================
-ynh_script_progression --message="Building $app... (this will take some time and resources!)" --weight=240
+ynh_script_progression --message="Building $app... (this will take some time and resources!)" --weight=40
 
 pushd "$final_path" || ynh_die
 	ynh_use_nodejs
-	yarn install
-	yarn run build
+	ynh_exec_as $app PATH="$nodejs_path:$PATH" "$nodejs_path/npm" install
+	ynh_exec_as $app PATH="$nodejs_path:$PATH" "$nodejs_path/npm" run build
+	#ynh_exec_warn_less yarn install
+	#ynh_exec_warn_less yarn run build
 popd || ynh_die
 
 #=================================================
@@ -118,8 +120,8 @@ popd || ynh_die
 #=================================================
 ynh_script_progression --message="Configuring a systemd service..." --weight=1
 
-ynh_replace_string --match_string="__ENV_PATH__"  --replace_string="$PATH"    --target_file="../conf/systemd.service"
-ynh_replace_string --match_string="__YNH_NPM__"   --replace_string="$ynh_npm" --target_file="../conf/systemd.service"
+ynh_replace_string --match_string="__ENV_PATH__" --replace_string="$PATH"    --target_file="../conf/systemd.service"
+ynh_replace_string --match_string="__YNH_NPM__"  --replace_string="$ynh_npm" --target_file="../conf/systemd.service"
 
 ynh_add_systemd_config
 
